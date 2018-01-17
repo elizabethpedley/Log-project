@@ -1,5 +1,6 @@
-#! python3
+#!/usr/bin/env python3
 import psycopg2
+"""logdb.py uses psql to querie the news database to answer 3 questions. """
 
 news = 'dbname=news'
 
